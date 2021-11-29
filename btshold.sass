@@ -1,0 +1,95 @@
+$color_orange: #ff6e3a
+    
+*
+    font-family: 微軟正黑體
+    // border: solid 1px 
+    //debug
+    header
+        display: none
+    section
+        display: none
+    section#section-ask
+        display: none
+    section#section-about
+        display: none
+    section#section-story
+        display: none
+    section#section-future
+        display: none
+    footer
+        display: block
+    
+    
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+    font-weight: bold
+
+
+body
+    height: 1000px
+header.jumbotron
+    text-align: center
+    background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg)
+    background-size: cover
+    background-attachment: fixed
+    margin-bottom: 0px  
+    .container
+        padding: 200px 0px
+        color: white
+    hr
+        max-width: 100px
+        border: solid 2px $color_orange
+    h4
+        color: rgba(white,0.5)
+        font-weight: normal
+
+section
+    padding: 50px 0px
+
+section#section-ask
+    background-color: $color_orange
+    .col-sm-5
+        background-image: url(https://awiclass.monoame.com/img/web1_print/ancient_print.jpeg)
+        height: 350px
+        mix-blend-mode: multiply
+    h2
+        margin-top: 130px
+        padding: 0px 20px
+section#section-about
+    img
+        width: 130%
+    .img-wrap
+        height: 220px
+        overflow: hidden
+
+section#section-story
+    background-color: #222
+    color: white
+    padding: 0
+    .col-sm-5
+        background-image: url(https://awiclass.monoame.com/img/web1_print/map.gif)
+        height: 400px
+        background-size: 100% auto
+        .cross
+            position: absolute
+            left: 45%
+            top: 40%
+            color: red
+            font-size: 40px
+            font-weight: bold
+    .col-sm-7
+        text-align: center
+        i
+            font-size: 40px
+    .col-sm-7
+        .features
+            margin-top: 40px
+            margin-bottom: 40px
+
+section#section-future
+    img
+        width: 100%
+    i
+        font-size: 40px
+    .feature
+        padding-top: 10px
+        padding-bottom: 10px
