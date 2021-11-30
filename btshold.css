@@ -1,6 +1,35 @@
 @charset "UTF-8";
 * {
   font-family: 微軟正黑體;
+  border: solid 1px;
+}
+
+* header {
+  display: none;
+}
+
+* section {
+  display: none;
+}
+
+* section#section-ask {
+  display: none;
+}
+
+* section#section-about {
+  display: none;
+}
+
+* section#section-story {
+  display: none;
+}
+
+* section#section-future {
+  display: none;
+}
+
+* footer {
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
