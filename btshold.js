@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    var s = skrollr.init();
+
     $(window).scroll(function(evt){ 
         if ($(window).scrollTop()>0)
             $(".navbar").removeClass("navbar-top");
@@ -6,9 +9,3 @@ $(document).ready(function () {
         $(".navbar").addClass("navbar-top");
     });
 });
-// $(document).ready(function () {
-//     $(window).scroll(function(evt){ 
-//         if ($(window).scrollTop()>0)
-//             $(".navbar").css("background","white");
-//         });
-// });
