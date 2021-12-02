@@ -2,30 +2,43 @@ $color_orange: #ff6e3a
     
 *
     font-family: 微軟正黑體
-    border: solid 1px 
+    // border: solid 1px 
     // debug CCC
-    header
-        display: none
-    section
-        display: none
-    section#section-ask
-        display: none
-    section#section-about
-        display: none
-    section#section-story
-        display: none
-    section#section-future
-        display: none
-    footer
-        display: block
+    // header
+    //     display: none
+    // section
+    //     display: none
+    // section#section-ask
+    //     display: none
+    // section#section-about
+    //     display: none
+    // section#section-story
+    //     display: none
+    // section#section-future
+    //     display: block
+    // footer
+    //     display: block
     
     
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
     font-weight: bold
 
-
 body
     height: 1000px
+nav.navbar
+    transition: 0.5s
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+    background-color: transparent 
+    background: transparent
+    background-image: none
+    a
+        color: white
+        transition: 0.5s
+        &:hover
+            color: $color_orange
+            
+            
+
 header.jumbotron
     text-align: center
     background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg)
@@ -93,3 +106,22 @@ section#section-future
     .feature
         padding-top: 10px
         padding-bottom: 10px
+    
+footer.jumbotron
+    text-align: center
+    background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg)
+    background-size: cover
+    background-attachment: fixed
+    margin-bottom: 0px
+    input
+        background-color: transparent
+        max-width: 350px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+    .container
+        padding: 60px 0px
+        color: white
+    hr
+        max-width: 100px
+        border: solid 2px $color_orange

@@ -1,35 +1,6 @@
 @charset "UTF-8";
 * {
   font-family: 微軟正黑體;
-  border: solid 1px;
-}
-
-* header {
-  display: none;
-}
-
-* section {
-  display: none;
-}
-
-* section#section-ask {
-  display: none;
-}
-
-* section#section-about {
-  display: none;
-}
-
-* section#section-story {
-  display: none;
-}
-
-* section#section-future {
-  display: none;
-}
-
-* footer {
-  display: block;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -38,6 +9,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 body {
   height: 1000px;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+  background: transparent;
+  background-image: none;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
 }
 
 header.jumbotron {
@@ -136,5 +128,31 @@ section#section-future i {
 section#section-future .feature {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.jumbotron .container {
+  padding: 60px 0px;
+  color: white;
+}
+
+footer.jumbotron hr {
+  max-width: 100px;
+  border: solid 2px #ff6e3a;
 }
 /*# sourceMappingURL=btshold.css.map */
